@@ -70,6 +70,7 @@ Class sav extends CModule
 
 	function DoUninstall()
 	{
+        $this->UnInstallFiles();
 		$this->UnInstallDB();
 	}
 }
